@@ -20,6 +20,11 @@ This is the dotfiles for GIGACHADS.
 
 ![image](https://github.com/user-attachments/assets/1effbaf1-3585-4884-8189-b72af41dcfe7)
 
+Minimal Hyprland:
+```
+yay -S --needed hyprland waybar hyprlock swww waypaper swaync rofi-wayland jq qt6ct-kde qt5-wayland libnotify xdg-desktop-portal-hyprland grim slurp wl-clipboard
+```
+
 Minimal KDE:
 ```
 yay -S --needed plasma-desktop kscreen plasma-pa plasma-nm bluedevil ark dolphin breeze-gtk kde-gtk-config 
@@ -52,12 +57,12 @@ XMODIFIERS=@im=fcitx
 ### SDDM-refresh-rate
 You can change the refresh rate and primary monitor in SDDM. Edit the file /usr/share/sddm/scripts/Xsetup as sudo and add in the lines:
 ```
-xrandr --output DP-0 --primary --mode 2560x1440 --rate 180 # or whatever your monitor settings are
+xrandr --output DP-0 --primary --mode 2560x1440 --rate 180
 ```
 You can get the numbers from running `xrandr | grep -w connected` while in an **X-session**.
 
 ### Anki
-After an update, the audio in Anki is low. You need to specify ao=pulse in mpv.conf, and put it in ~/.local/share/Anki2/ so Anki reads it.
+After an update, the audio in Anki is low. You need to specify ao=pulse in mpv.conf, and put it in ~/.local/share/Anki2/ so Anki reads it. You may want to add ANKI_WAYLAND=1 as an environmental variable if it behaves weirdly on Wayland. 
 
 ## Basic maintenance
 - `sudo pacman -Syu` - to update
