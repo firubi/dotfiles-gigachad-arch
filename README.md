@@ -25,6 +25,22 @@ Minimal KDE:
 yay -S --needed plasma-desktop kscreen plasma-pa plasma-nm bluedevil ark dolphin breeze-gtk kde-gtk-config 
 ```
 
+Everything else: 
+```
+yay -S --needed kate fastfetch steam ryujinx fcitx5 fcitx5-configtool fcitx5-mozc mpv oculante zathura zathura-pdf-poppler spectacle flatpak gamescope mangohud xdg-desktop-portal-gtk alacritty gnome-disk-utility rate-mirrors cachyos-settings cachy-browser gnome-disk-utility
+```
+
+Flatpaks:
+```
+flatpak install dev.vencord.Vesktop org.keepassxc.KeePassXC com.obsproject.Studio com.usebottles.bottles com.github.tchx84.Flatseal info.cemu.Cemu sh.ppy.osu org.prismlauncher.PrismLauncher org.gnome.Boxes io.github.xiaoyifang.goldendict_ng org.qbittorrent.qBittorrent net.davidotek.pupgui2 io.missioncenter.MissionCenter com.heroicgameslauncher.hgl org.kde.kdenlive org.yuzu_emu.yuzu
+```
+And flatpaks outside of Flathub:
+```
+flatpak install --user https://sober.vinegarhq.org/sober.flatpakref
+flatpak remote-add --if-not-exists launcher.moe https://gol.launcher.moe/gol.launcher.moe.flatpakrepo
+flatpak install moe.launcher.sleepy-launcher
+```
+
 ## Various tips
 ### Fcitx5
 Add in /etc/environment
