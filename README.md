@@ -22,7 +22,7 @@ This is the dotfiles for GIGACHADS.
 
 Minimal Hyprland:
 ```
-yay -S --needed hyprland waybar hyprlock swww waypaper swaync rofi-wayland jq qt6ct-kde qt5-wayland libnotify xdg-desktop-portal-hyprland grim slurp wl-clipboard
+yay -S --needed hyprland waybar hyprlock swww waypaper swaync rofi-wayland jq xdg-desktop-portal-hyprland grim slurp wl-clipboard
 ```
 
 Minimal KDE:
