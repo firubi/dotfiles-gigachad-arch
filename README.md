@@ -1,4 +1,4 @@
-For a simple Arch Linux installation using an XFS-filesystem, look here: 
+For a simple Arch Linux installation using an XFS-filesystem, look here: https://github.com/firubi/gigachad-arch-installation
 
 # Dotfiles for GIGACHADS
 This is the dotfiles for GIGACHADS.
