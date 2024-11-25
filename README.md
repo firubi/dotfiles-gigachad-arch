@@ -22,7 +22,7 @@ This is the dotfiles for GIGACHADS.
 
 Minimal Hyprland:
 ```
-yay -S --needed hyprland waybar hyprlock swww waypaper swaync rofi-wayland jq xdg-desktop-portal-hyprland grim slurp wl-clipboard
+yay -S --needed hyprland waybar hyprlock hyprpaper swaync rofi-wayland jq xdg-desktop-portal-hyprland grim slurp wl-clipboard
 ```
 
 Minimal KDE:
@@ -32,7 +32,7 @@ yay -S --needed plasma-desktop kscreen plasma-pa plasma-nm bluedevil ark dolphin
 
 Everything else: 
 ```
-yay -S --needed kate firefox fastfetch steam wine wine-mono wine-gecko ryujinx fcitx5 fcitx5-configtool fcitx5-mozc mpv oculante zathura zathura-pdf-poppler spectacle flatpak gamescope mangohud xdg-desktop-portal-gtk alacritty gnome-disk-utility rate-mirrors cachyos-settings gnome-disk-utility
+yay -S --needed kate firefox fastfetch steam wine wine-mono wine-gecko ryujinx fcitx5 fcitx5-configtool fcitx5-mozc mpv oculante zathura zathura-pdf-poppler spectacle flatpak gamescope mangohud xdg-desktop-portal-gtk alacritty gnome-disk-utility rate-mirrors cachyos-settings gnome-disk-utility xclip
 ```
 
 Flatpaks:
