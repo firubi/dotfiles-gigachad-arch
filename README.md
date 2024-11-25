@@ -47,6 +47,12 @@ flatpak install moe.launcher.sleepy-launcher
 ```
 
 ## Various tips
+### Tweaks done outside of cachyos-settings
+- Increase vm.max_map_count in `/etc/sysctl.d/80-gamecompatibility` by adding the line `vm.max_map_count = 2147483642`
+- Disable split lock mitigation in `/etc/sysctl.d/99-splitlock.conf` by adding the line `kernel.split_lock_mitigate=0`
+- [Low latency audio](https://www.reddit.com/r/rhythmgames/comments/1gamrnc/low_latency_guide_for_linux_using_pipewire/) using PipeWire.
+- [Grant realtime privileges](https://wiki.cachyos.org/configuration/general_system_tweaks/#9-granting-realtime-privileges-for-the-user) to user.
+
 ### Fcitx5
 Add in /etc/environment
 ```
