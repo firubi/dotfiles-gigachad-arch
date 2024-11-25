@@ -1,7 +1,7 @@
 configuration {
 	fixed-num-lines: true;
 	show-icons: true;
-	terminal: "kitty";
+	terminal: "alacritty";
 /*	ssh-client: "ssh";*/
 /*	ssh-command: "{terminal} -e {ssh-client} {host} [-p {port}]";*/
 /*	run-command: "{cmd}";*/
