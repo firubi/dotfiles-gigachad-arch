@@ -2,10 +2,7 @@ For a simple Arch Linux installation using an XFS-filesystem, look here: https:/
 
 # Dotfiles for GIGACHADS
 This is the dotfiles for GIGACHADS.
-> Hyprland
-> ![2024-11-22_21-42-07](https://github.com/user-attachments/assets/159c4ac3-74a4-436c-90f8-f4f5ed9ee123)
-> KDE
-> ![image](https://github.com/user-attachments/assets/4c9083bb-e61c-4002-8571-0325d2b05947)
+> ![image](https://github.com/user-attachments/assets/c6d12e48-5156-424b-87d5-813b3ed7e419)
 
 # Programs
 - Distro - Arch with [CachyOS repos](https://wiki.cachyos.org/features/optimized_repos/)
