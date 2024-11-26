@@ -39,9 +39,8 @@ flatpak install dev.vencord.Vesktop org.keepassxc.KeePassXC com.obsproject.Studi
 And flatpaks outside of Flathub:
 ```
 flatpak install --user https://sober.vinegarhq.org/sober.flatpakref
-flatpak remote-add --if-not-exists launcher.moe https://gol.launcher.moe/gol.launcher.moe.flatpakrepo
-flatpak install moe.launcher.sleepy-launcher
 ```
+Search for an anime launcher to play those types of games. 
 
 ## Various tips
 ### Hyprland and KDE
