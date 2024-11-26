@@ -29,7 +29,7 @@ yay -S --needed plasma-desktop kscreen plasma-pa plasma-nm bluedevil ark dolphin
 
 Everything else: 
 ```
-yay -S --needed kate firefox fastfetch steam heroic-games-launcher wine wine-mono wine-gecko ryujinx fcitx5 fcitx5-configtool fcitx5-mozc mpv oculante zathura zathura-pdf-poppler spectacle flatpak gamescope mangohud xdg-desktop-portal-gtk alacritty gnome-disk-utility rate-mirrors cachyos-settings gnome-disk-utility xclip
+yay -S --needed kate firefox fastfetch steam heroic-games-launcher wine-staging wine-mono wine-gecko ryujinx fcitx5 fcitx5-configtool fcitx5-mozc mpv oculante zathura zathura-pdf-poppler spectacle flatpak gamescope mangohud xdg-desktop-portal-gtk alacritty gnome-disk-utility rate-mirrors cachyos-settings gnome-disk-utility xclip
 ```
 
 Flatpaks:
