@@ -29,12 +29,12 @@ yay -S --needed plasma-desktop kscreen plasma-pa plasma-nm bluedevil ark dolphin
 
 Everything else: 
 ```
-yay -S --needed kate firefox fastfetch steam wine wine-mono wine-gecko ryujinx fcitx5 fcitx5-configtool fcitx5-mozc mpv oculante zathura zathura-pdf-poppler spectacle flatpak gamescope mangohud xdg-desktop-portal-gtk alacritty gnome-disk-utility rate-mirrors cachyos-settings gnome-disk-utility xclip
+yay -S --needed kate firefox fastfetch steam heroic-games-launcher wine wine-mono wine-gecko ryujinx fcitx5 fcitx5-configtool fcitx5-mozc mpv oculante zathura zathura-pdf-poppler spectacle flatpak gamescope mangohud xdg-desktop-portal-gtk alacritty gnome-disk-utility rate-mirrors cachyos-settings gnome-disk-utility xclip
 ```
 
 Flatpaks:
 ```
-flatpak install dev.vencord.Vesktop org.keepassxc.KeePassXC com.obsproject.Studio com.usebottles.bottles com.github.tchx84.Flatseal info.cemu.Cemu sh.ppy.osu org.prismlauncher.PrismLauncher org.gnome.Boxes io.github.xiaoyifang.goldendict_ng org.qbittorrent.qBittorrent net.davidotek.pupgui2 io.missioncenter.MissionCenter com.heroicgameslauncher.hgl org.kde.kdenlive org.yuzu_emu.yuzu
+flatpak install dev.vencord.Vesktop org.keepassxc.KeePassXC com.obsproject.Studio com.usebottles.bottles com.github.tchx84.Flatseal info.cemu.Cemu sh.ppy.osu org.prismlauncher.PrismLauncher org.gnome.Boxes io.github.xiaoyifang.goldendict_ng org.qbittorrent.qBittorrent net.davidotek.pupgui2 io.missioncenter.MissionCenter org.kde.kdenlive org.yuzu_emu.yuzu
 ```
 And flatpaks outside of Flathub:
 ```
