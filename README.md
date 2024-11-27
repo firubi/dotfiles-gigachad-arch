@@ -46,10 +46,6 @@ Search for an anime launcher to play those types of games.
 ### Hyprland and KDE
 Having KDE installed together with Hyprland makes theming so much easier. If you were to install breeze and dolphin, a lot the dependencies are common with plasma-desktop, so you might as well. This removes the need for qt6ct-kde or any other theming app, as you can simply use the KDE system settings app with the appropriate environmental variable. In order to fix the [weird MIME behaviour](https://bbs.archlinux.org/viewtopic.php?pid=2167579#p2167579) of dolphin, make a link in `/etc/xdg/menus` like this: `sudo ln -s /etc/xdg/menus/plasma-applications.menu /etc/xdg/menus/applications.menu`.
 
-### Tweaks done outside of cachyos-settings
-- Increase vm.max_map_count in `/etc/sysctl.d/80-gamecompatibility` by adding the line `vm.max_map_count = 2147483642`
-- [Grant realtime privileges](https://wiki.cachyos.org/configuration/general_system_tweaks/#9-granting-realtime-privileges-for-the-user) to user, especially useful to reduce audio glitching.
-
 ### Fcitx5
 Add in /etc/environment
 ```
