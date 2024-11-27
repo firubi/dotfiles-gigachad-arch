@@ -5,17 +5,17 @@ This is the dotfiles for GIGACHADS.
 > ![image](https://github.com/user-attachments/assets/c6d12e48-5156-424b-87d5-813b3ed7e419)
 
 # Programs
-- Distro - Arch with [CachyOS repos](https://wiki.cachyos.org/features/optimized_repos/)
+- Distro - Arch
 - Shell - bash
 - Terminal - alacritty
-- WM - Hyprland/KDE
-- Launcher - rofi-wayland
+- WM - KDE
 - File manager - dolphin
-- Image viewer - oculante
-- Document viewer - zathura
+- Image viewer - gwenview
+- Document viewer - okular
 - Video player - mpv
 
-![image](https://github.com/user-attachments/assets/1effbaf1-3585-4884-8189-b72af41dcfe7)
+![image](https://github.com/user-attachments/assets/1981ef06-44be-4dd4-8ab1-d87730fcd8b1)
+
 
 Minimal Hyprland:
 ```
