@@ -2,7 +2,7 @@ For a simple Arch Linux installation using an XFS-filesystem, look here: https:/
 
 # Dotfiles for GIGACHADS
 This is the dotfiles for GIGACHADS.
-> ![image](https://github.com/user-attachments/assets/1981ef06-44be-4dd4-8ab1-d87730fcd8b1)
+> ![image](https://github.com/user-attachments/assets/8375a49f-2369-4691-a1a5-9c5d85444997)
 
 # Programs
 - Distro - Arch
@@ -40,7 +40,7 @@ And flatpaks outside of Flathub:
 ```
 flatpak install --user https://sober.vinegarhq.org/sober.flatpakref
 ```
-Search for an anime launcher to play those types of games. 
+Search for an anime launcher to play those games. 
 
 ## Various tips
 ### Hyprland and KDE
