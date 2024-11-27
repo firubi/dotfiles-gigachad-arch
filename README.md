@@ -24,17 +24,17 @@ yay -S --needed hyprland waybar hyprlock hyprpaper swaync rofi-wayland jq xdg-de
 
 Minimal KDE:
 ```
-yay -S --needed plasma-desktop kscreen plasma-pa plasma-nm bluedevil ark dolphin breeze-gtk kde-gtk-config 
+yay -S --needed plasma-desktop kscreen plasma-pa plasma-nm bluedevil ark dolphin breeze-gtk kde-gtk-config sddm sddm-kcm plasma-systemmonitor
 ```
 
 Everything else: 
 ```
-yay -S --needed kate firefox fastfetch steam heroic-games-launcher wine-staging wine-mono wine-gecko ryujinx fcitx5 fcitx5-configtool fcitx5-mozc mpv oculante zathura zathura-pdf-poppler spectacle flatpak gamescope mangohud xdg-desktop-portal-gtk alacritty gnome-disk-utility rate-mirrors cachyos-settings gnome-disk-utility xclip
+yay -S --needed pacman-contrib kate firefox fastfetch steam wine-staging wine-mono wine-gecko fcitx5 fcitx5-configtool fcitx5-mozc mpv gwenview okular spectacle flatpak gamemode gamescope mangohud xdg-desktop-portal-gtk alacritty gnome-disk-utility xclip xorg-xrandr
 ```
 
 Flatpaks:
 ```
-flatpak install dev.vencord.Vesktop org.keepassxc.KeePassXC com.obsproject.Studio com.usebottles.bottles com.github.tchx84.Flatseal info.cemu.Cemu sh.ppy.osu org.prismlauncher.PrismLauncher org.gnome.Boxes io.github.xiaoyifang.goldendict_ng org.qbittorrent.qBittorrent net.davidotek.pupgui2 io.missioncenter.MissionCenter org.kde.kdenlive org.yuzu_emu.yuzu
+flatpak install dev.vencord.Vesktop org.keepassxc.KeePassXC com.obsproject.Studio com.usebottles.bottles com.github.tchx84.Flatseal info.cemu.Cemu sh.ppy.osu org.prismlauncher.PrismLauncher org.gnome.Boxes io.github.xiaoyifang.goldendict_ng org.qbittorrent.qBittorrent net.davidotek.pupgui2 io.missioncenter.MissionCenter org.kde.kdenlive org.yuzu_emu.yuzu com.heroicgameslauncher.hgl it.mijorus.gearlever io.github.mezoahmedii.Picker
 ```
 And flatpaks outside of Flathub:
 ```
