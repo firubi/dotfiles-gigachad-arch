@@ -2,7 +2,7 @@ For a simple Arch Linux installation using an XFS-filesystem, look here: https:/
 
 # Dotfiles for GIGACHADS
 This is the dotfiles for GIGACHADS.
-> ![image](https://github.com/user-attachments/assets/c6d12e48-5156-424b-87d5-813b3ed7e419)
+> ![image](https://github.com/user-attachments/assets/1981ef06-44be-4dd4-8ab1-d87730fcd8b1)
 
 # Programs
 - Distro - Arch
@@ -14,7 +14,7 @@ This is the dotfiles for GIGACHADS.
 - Document viewer - okular
 - Video player - mpv
 
-![image](https://github.com/user-attachments/assets/1981ef06-44be-4dd4-8ab1-d87730fcd8b1)
+![image](https://github.com/user-attachments/assets/2c6f1d64-d543-4bb6-bbae-e62ec0bd76a6)
 
 
 Minimal Hyprland:
