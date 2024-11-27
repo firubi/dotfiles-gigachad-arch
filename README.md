@@ -67,6 +67,9 @@ You can get the numbers from running `xrandr | grep -w connected` while in an **
 ### Anki
 After an update, the audio in Anki is low. You need to specify ao=pulse in mpv.conf, and put it in ~/.local/share/Anki2/ so Anki reads it. You may want to add ANKI_WAYLAND=1 as an environmental variable if it behaves weirdly on Wayland. 
 
+### Gamescope settings for CS2 stretched
+`LD_PRELOAD="" gamescope -f -r 180 -S stretch  -W 2560 -H 1440 -w 1920 -h 1440 --force-grab-cursor -- %command% +exec autoexec.cfg`
+
 ## Basic maintenance
 - `sudo pacman -Syu` - to update
 - `sudo pacman -Rns` - to remove package
