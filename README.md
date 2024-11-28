@@ -2,14 +2,14 @@ For a simple Arch Linux installation using an XFS-filesystem, look here: https:/
 
 # Dotfiles for GIGACHADS
 This is the dotfiles for GIGACHADS.
-> ![image](https://github.com/user-attachments/assets/213114cb-c2c9-4d0d-9495-420b575b02f9)
+> ![image](https://github.com/user-attachments/assets/1859128b-d61e-4fc9-8d6b-029aadc6848f)
 
 # Programs
 - Distro - Arch
 - Shell - bash
 - Terminal - alacritty
-- WM - KDE
-- Screenshot - flameshot
+- WM - KDE/Hyprland
+- Screenshot - spectacle/grim-slurp
 - File manager - dolphin
 - Image viewer - gwenview
 - Document viewer - okular
