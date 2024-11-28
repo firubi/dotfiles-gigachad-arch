@@ -2,14 +2,14 @@ For a simple Arch Linux installation using an XFS-filesystem, look here: https:/
 
 # Dotfiles for GIGACHADS
 This is the dotfiles for GIGACHADS.
-> ![image](https://github.com/user-attachments/assets/1859128b-d61e-4fc9-8d6b-029aadc6848f)
+> ![image](https://github.com/user-attachments/assets/458343e2-fd69-456f-99e1-a5f85142741d)
 
 # Programs
 - Distro - Arch
 - Shell - bash
 - Terminal - alacritty
-- WM - KDE/Hyprland
-- Screenshot - spectacle/grim-slurp
+- WM - KDE
+- Screenshot - spectacle
 - File manager - dolphin
 - Image viewer - gwenview
 - Document viewer - okular
@@ -22,7 +22,10 @@ This is the dotfiles for GIGACHADS.
 For better game compatibility, you may want to try to increase [vm.max_map_count](https://wiki.archlinux.org/title/Gaming#Increase_vm.max_map_count).
 
 ### Hyprland and KDE
-Having KDE installed together with Hyprland makes theming so much easier. If you were to install breeze and dolphin, a lot the dependencies are common with plasma-desktop, so you might as well. This removes the need for qt6ct-kde or any other theming app, as you can simply use the KDE system settings app with the appropriate environmental variable. In order to fix the [weird MIME behaviour](https://bbs.archlinux.org/viewtopic.php?pid=2167579#p2167579) of dolphin, make a link in `/etc/xdg/menus` like this: `sudo ln -s /etc/xdg/menus/plasma-applications.menu /etc/xdg/menus/applications.menu`.
+Having KDE installed together with Hyprland makes theming so much easier. If you were to install breeze and dolphin, a lot the dependencies are common with plasma-desktop, so you might as well. This removes the need for qt6ct-kde or any other theming app, as you can simply use the KDE system settings app with the appropriate environmental variable. In order to fix the [weird MIME behaviour](https://bbs.archlinux.org/viewtopic.php?pid=2167579#p2167579) of dolphin, make a link in `/etc/xdg/menus` like this: `sudo ln -s /etc/xdg/menus/plasma-applications.menu /etc/xdg/menus/applications.menu`. If you want to install Hyprland, this is a summary of my programs:
+```
+yay -S --needed hyprland waybar hyprlock hyprpaper swaync rofi-wayland jq xdg-desktop-portal-hyprland grim slurp wl-clipboard
+```
 
 ### Fcitx5
 Add in /etc/environment
@@ -74,7 +77,3 @@ flatpak install --user https://sober.vinegarhq.org/sober.flatpakref
 ```
 Search for an anime launcher to play those games. 
 
-Minimal Hyprland:
-```
-yay -S --needed hyprland waybar hyprlock hyprpaper swaync rofi-wayland jq xdg-desktop-portal-hyprland grim slurp wl-clipboard
-```
