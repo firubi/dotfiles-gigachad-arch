@@ -61,12 +61,12 @@ yay -S --needed plasma-desktop kscreen plasma-pa plasma-nm bluedevil ark dolphin
 
 Everything else: 
 ```
-yay -S --needed pacman-contrib kate firefox fastfetch steam wine-staging wine-mono wine-gecko fcitx5 fcitx5-configtool fcitx5-mozc mpv flameshot flatpak gamemode gamescope mangohud xdg-desktop-portal-gtk alacritty gnome-disk-utility xclip xorg-xrandr
+yay -S --needed pacman-contrib kate firefox fastfetch steam heroic-games-launcher-bin wine-staging wine-mono wine-gecko fcitx5 fcitx5-configtool fcitx5-mozc mpv spectacle gwenview okular flatpak gamemode gamescope mangohud xdg-desktop-portal-gtk alacritty gnome-disk-utility xclip xorg-xrandr
 ```
 
 Flatpaks:
 ```
-flatpak install dev.vencord.Vesktop org.keepassxc.KeePassXC com.obsproject.Studio com.usebottles.bottles com.github.tchx84.Flatseal info.cemu.Cemu sh.ppy.osu org.prismlauncher.PrismLauncher org.gnome.Boxes io.github.xiaoyifang.goldendict_ng org.qbittorrent.qBittorrent net.davidotek.pupgui2 org.kde.kdenlive org.yuzu_emu.yuzu com.heroicgameslauncher.hgl it.mijorus.gearlever io.github.mezoahmedii.Picker
+flatpak install dev.vencord.Vesktop org.keepassxc.KeePassXC com.obsproject.Studio com.usebottles.bottles com.github.tchx84.Flatseal info.cemu.Cemu sh.ppy.osu org.prismlauncher.PrismLauncher org.gnome.Boxes io.github.xiaoyifang.goldendict_ng org.qbittorrent.qBittorrent net.davidotek.pupgui2 org.kde.kdenlive org.yuzu_emu.yuzu it.mijorus.gearlever io.github.mezoahmedii.Picker
 ```
 And flatpaks outside of Flathub:
 ```
