@@ -9,6 +9,7 @@ This is the dotfiles for GIGACHADS.
 - Shell - bash
 - Terminal - alacritty
 - WM - KDE
+- Screenshot - flameshot
 - File manager - dolphin
 - Image viewer - gwenview
 - Document viewer - okular
@@ -60,7 +61,7 @@ yay -S --needed plasma-desktop kscreen plasma-pa plasma-nm bluedevil ark dolphin
 
 Everything else: 
 ```
-yay -S --needed pacman-contrib kate firefox fastfetch steam wine-staging wine-mono wine-gecko fcitx5 fcitx5-configtool fcitx5-mozc mpv gwenview okular spectacle flatpak gamemode gamescope mangohud xdg-desktop-portal-gtk alacritty gnome-disk-utility xclip xorg-xrandr
+yay -S --needed pacman-contrib kate firefox fastfetch steam wine-staging wine-mono wine-gecko fcitx5 fcitx5-configtool fcitx5-mozc mpv flameshot flatpak gamemode gamescope mangohud xdg-desktop-portal-gtk alacritty gnome-disk-utility xclip xorg-xrandr
 ```
 
 Flatpaks:
