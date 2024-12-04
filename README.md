@@ -2,7 +2,7 @@ For a simple Arch Linux installation using an XFS-filesystem, look here: https:/
 
 # Dotfiles for GIGACHADS
 This is the dotfiles for GIGACHADS.
-> ![image](https://github.com/user-attachments/assets/458343e2-fd69-456f-99e1-a5f85142741d)
+> ![image](https://github.com/user-attachments/assets/21eca79a-8cc7-4619-b9bc-e1e47bb02af8)
 
 # Programs
 - Distro - Arch
