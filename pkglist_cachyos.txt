@@ -1,0 +1,4 @@
+linux-cachyos
+linux-cachyos-headers
+vesktop
+yay
