@@ -61,5 +61,4 @@ winetricks
 xclip
 xdg-desktop-portal-gtk
 xorg-xrandr
-yay
 yt-dlp
