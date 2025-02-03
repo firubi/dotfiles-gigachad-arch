@@ -7,7 +7,7 @@ This is the dotfiles for GIGACHADS.
 
 
 # Programs
-- Distro - Arch
+- Distro - Arch, added CachyOS repositories
 - Shell - bash
 - Terminal - alacritty
 - WM - KDE
@@ -41,13 +41,13 @@ You can change the refresh rate and primary monitor in SDDM. Edit the file /usr/
 ```
 xrandr --output DP-0 --primary --mode 2560x1440 --rate 180
 ```
-You can get the numbers from running `xrandr | grep -w connected` while in an **X-session**.
+You can get the numbers from running `xrandr | grep -w connected` while in an **X-session**. You need the package xorg-xrandr for this to work.
 
 ### Anki
 After an update, the audio in Anki is low. You need to specify ao=pulse in mpv.conf, and put it in ~/.local/share/Anki2/ so Anki reads it. You may want to add ANKI_WAYLAND=1 as an environmental variable if it behaves weirdly on Wayland. 
 
 ### Gamescope settings for CS2 stretched
-`LD_PRELOAD="" gamescope -f -r 180 -S stretch  -W 2560 -H 1440 -w 1920 -h 1440 --force-grab-cursor -- %command% +exec autoexec.cfg`
+`gamescope -f -r 240 -S stretch  -W 2560 -H 1440 -w 1920 -h 1440 --force-grab-cursor -- %command% +exec autoexec.cfg`
 
 ## Basic maintenance
 - `sudo pacman -Syu` - to update
@@ -59,23 +59,9 @@ After an update, the audio in Anki is low. You need to specify ao=pulse in mpv.c
 
 ## Personal packages
 
-Minimal KDE:
-```
-yay -S --needed plasma-desktop kscreen plasma-pa plasma-nm bluedevil ark dolphin kdegraphics-thumbnailers breeze-gtk kde-gtk-config sddm sddm-kcm plasma-systemmonitor
-```
-
-Everything else: 
-```
-yay -S --needed pacman-contrib kate firefox fastfetch steam heroic-games-launcher-bin wine-staging wine-mono wine-gecko fcitx5 fcitx5-configtool fcitx5-mozc mpv spectacle gwenview okular flatpak gamemode gamescope mangohud xdg-desktop-portal-gtk alacritty gnome-disk-utility xclip xorg-xrandr
-```
+Check my pkglist.txt file to see all my packages!
 
 Flatpaks:
 ```
-flatpak install dev.vencord.Vesktop org.keepassxc.KeePassXC com.obsproject.Studio com.usebottles.bottles com.github.tchx84.Flatseal info.cemu.Cemu sh.ppy.osu org.prismlauncher.PrismLauncher org.gnome.Boxes io.github.xiaoyifang.goldendict_ng org.qbittorrent.qBittorrent net.davidotek.pupgui2 org.kde.kdenlive org.yuzu_emu.yuzu it.mijorus.gearlever io.github.mezoahmedii.Picker
+flatpak install org.keepassxc.KeePassXC com.obsproject.Studio com.usebottles.bottles com.github.tchx84.Flatseal info.cemu.Cemu sh.ppy.osu org.prismlauncher.PrismLauncher org.gnome.Boxes io.github.xiaoyifang.goldendict_ng org.qbittorrent.qBittorrent net.davidotek.pupgui2 org.kde.kdenlive org.yuzu_emu.yuzu it.mijorus.gearlever
 ```
-And flatpaks outside of Flathub:
-```
-flatpak install --user https://sober.vinegarhq.org/sober.flatpakref
-```
-Search for an anime launcher to play those games. 
-
