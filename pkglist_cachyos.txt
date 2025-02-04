@@ -1,4 +1,5 @@
 linux-cachyos
 linux-cachyos-headers
+cachyos-settings
 vesktop
 yay
