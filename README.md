@@ -6,7 +6,7 @@ This is the dotfiles for GIGACHADS.
 
 
 # Programs
-- Distro - Arch, added CachyOS repositories
+- Distro - Arch
 - Shell - bash
 - Terminal - alacritty
 - WM - KDE
