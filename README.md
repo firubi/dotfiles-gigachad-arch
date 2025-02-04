@@ -19,8 +19,8 @@ This is the dotfiles for GIGACHADS.
 ![image](https://github.com/user-attachments/assets/2c6f1d64-d543-4bb6-bbae-e62ec0bd76a6)
 
 ## Various tips
-### Increase vm.max_map_count and decrease vm.swappiness
-For better game compatibility, you may want to try to increase [vm.max_map_count](https://wiki.archlinux.org/title/Gaming#Increase_vm.max_map_count). I also have [vm.swappiness](https://wiki.archlinux.org/title/Swap#Swappiness) set to 0 personally. 
+### Settings
+If you add the CachyOS repos, you could add their cachyos-settings package. This will add zram to your system as well. If you use disk swap, make sure to set the priorities right (to uuse zram first). You can do this by adding the option pri=10 (or any other value less than 100). Default priority for the zram is 100. You can confirm by typing `cat /proc/swaps`.
 
 ### Hyprland and KDE
 Having KDE installed together with Hyprland makes theming so much easier. If you were to install breeze and dolphin, a lot the dependencies are common with plasma-desktop, so you might as well. This removes the need for qt6ct-kde or any other theming app, as you can simply use the KDE system settings app with the appropriate environmental variable. In order to fix the [weird MIME behaviour](https://bbs.archlinux.org/viewtopic.php?pid=2167579#p2167579) of dolphin, make a link in `/etc/xdg/menus` like this: `sudo ln -s /etc/xdg/menus/plasma-applications.menu /etc/xdg/menus/applications.menu`. If you want to install Hyprland, this is a summary of my programs:
