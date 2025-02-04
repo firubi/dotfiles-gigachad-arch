@@ -23,6 +23,9 @@ flatpak
 gamescope
 gnome-disk-utility
 gwenview
+jre17-openjdk
+jre21-openjdk
+jre8-openjdk
 kate
 kcalc
 kde-gtk-config
@@ -41,8 +44,6 @@ lib32-ocl-icd
 lib32-sdl2-compat
 lib32-v4l-utils
 linux
-linux-cachyos
-linux-cachyos-headers
 linux-firmware
 linux-headers
 linux-zen
@@ -63,10 +64,12 @@ plasma-firewall
 plasma-nm
 plasma-pa
 plasma-systemmonitor
+prismlauncher
 proton-cachyos
 python-pyqt6
 qemu-full
 reflector
+ryujinx
 sddm
 sddm-kcm
 spectacle
