@@ -2,8 +2,7 @@ For a simple Arch Linux installation, look here: https://github.com/firubi/gigac
 
 # Dotfiles for GIGACHADS
 This is the dotfiles for GIGACHADS.
-> ![image](https://github.com/user-attachments/assets/5f292ba1-de49-481f-8b51-be818cef2f91)
-
+> ![image](https://github.com/user-attachments/assets/60e00ac2-b601-4472-9271-adcaf0830743)
 
 
 # Programs
