@@ -67,7 +67,6 @@ sddm
 sddm-kcm
 spectacle
 steam
-steam-native-runtime
 swtpm
 umu-launcher
 unrar
