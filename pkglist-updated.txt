@@ -5,11 +5,6 @@ base
 base-devel
 bluedevil
 breeze-gtk
-cachyos-keyring
-cachyos-mirrorlist
-cachyos-settings
-cachyos-v3-mirrorlist
-cachyos-v4-mirrorlist
 chromium
 dolphin
 fastfetch
@@ -65,11 +60,9 @@ plasma-nm
 plasma-pa
 plasma-systemmonitor
 prismlauncher
-proton-cachyos
 python-pyqt6
 qemu-full
 reflector
-ryujinx
 sddm
 sddm-kcm
 spectacle
@@ -78,7 +71,6 @@ steam-native-runtime
 swtpm
 umu-launcher
 unrar
-vesktop
 virt-manager
 wine-gecko
 wine-mono
@@ -87,5 +79,4 @@ winetricks
 xclip
 xdg-desktop-portal-gtk
 xorg-xrandr
-yay
 yt-dlp
