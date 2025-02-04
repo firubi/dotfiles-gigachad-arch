@@ -20,7 +20,7 @@ This is the dotfiles for GIGACHADS.
 
 ## Various tips
 ### Settings
-If you add the CachyOS repos, you could add their cachyos-settings package. This will add zram to your system as well. If you use disk swap, make sure to set the priorities right (to uuse zram first). You can do this by adding the option pri=10 (or any other value less than 100). Default priority for the zram is 100. You can confirm by typing `cat /proc/swaps`.
+If you add the CachyOS repos, you could add their cachyos-settings package. This will add zram to your system as well. If you use disk swap, make sure to set the priorities right (to use zram first). You can do this by adding the option pri=10 (or any other value less than 100). Default priority for the zram is 100. You can confirm by typing `cat /proc/swaps`.
 ![image](https://github.com/user-attachments/assets/6df8be44-e676-49d4-9993-7fe3f3ad9695)
 
 
