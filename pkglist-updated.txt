@@ -5,7 +5,6 @@ base
 base-devel
 bluedevil
 breeze-gtk
-chromium
 dolphin
 fastfetch
 fcitx5
@@ -13,7 +12,6 @@ fcitx5-configtool
 fcitx5-mozc
 ffmpegthumbs
 firefox
-firewalld
 flatpak
 gamescope
 gnome-disk-utility
@@ -55,12 +53,10 @@ okular
 pacman-contrib
 papirus-icon-theme
 plasma-desktop
-plasma-firewall
 plasma-nm
 plasma-pa
 plasma-systemmonitor
 prismlauncher
-python-pyqt6
 qemu-full
 reflector
 sddm
@@ -73,7 +69,7 @@ unrar
 virt-manager
 wine-gecko
 wine-mono
-wine-staging
+wine
 winetricks
 xclip
 xdg-desktop-portal-gtk
