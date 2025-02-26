@@ -21,8 +21,6 @@ This is the dotfiles for GIGACHADS.
 ## Various tips
 ### Hooks
 - Automatically update systemd-boot
-- Recommend reboot after nvidia-driver update
-- Recommend reboot after kernel update
 - Paccache hook (AUR) 
 
 ### Fcitx5
