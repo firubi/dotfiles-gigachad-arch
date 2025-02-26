@@ -20,8 +20,6 @@ This is the dotfiles for GIGACHADS.
 
 ## Various tips
 ### Hooks
-- Informant - read Arch news (AUR)
-- Check for orhpans
 - Automatically update systemd-boot
 - Recommend reboot after nvidia-driver update
 - Recommend reboot after kernel update
