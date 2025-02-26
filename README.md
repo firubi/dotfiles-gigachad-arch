@@ -19,6 +19,15 @@ This is the dotfiles for GIGACHADS.
 ![image](https://github.com/user-attachments/assets/2c6f1d64-d543-4bb6-bbae-e62ec0bd76a6)
 
 ## Various tips
+### Hooks
+- Informant - read Arch news
+- Check for orhpans
+- Automatically update systemd-boot
+- Recommend reboot after nvidia-driver update
+- Recommend reboot after kernel update
+-  Remove pacman cache (paccache hook)
+
+
 ### Settings
 - Set vm.swapiness value to 100
 
