@@ -27,17 +27,6 @@ This is the dotfiles for GIGACHADS.
 - Recommend reboot after kernel update
 - Paccache hook (AUR) 
 
-
-### Settings
-- Set vm.swapiness value to 100
-
-
-### Hyprland and KDE
-Having KDE installed together with Hyprland makes theming so much easier. If you were to install breeze and dolphin, a lot the dependencies are common with plasma-desktop, so you might as well. This removes the need for qt6ct-kde or any other theming app, as you can simply use the KDE system settings app with the appropriate environmental variable. In order to fix the [weird MIME behaviour](https://bbs.archlinux.org/viewtopic.php?pid=2167579#p2167579) of dolphin, make a link in `/etc/xdg/menus` like this: `sudo ln -s /etc/xdg/menus/plasma-applications.menu /etc/xdg/menus/applications.menu`. If you want to install Hyprland, this is a summary of my programs:
-```
-yay -S --needed hyprland waybar hyprlock hyprpaper swaync rofi-wayland jq xdg-desktop-portal-hyprland grim slurp wl-clipboard
-```
-
 ### Fcitx5
 Add in /etc/environment
 ```
@@ -46,11 +35,7 @@ QT_IM_MODULE=fcitx
 XMODIFIERS=@im=fcitx
 ```
 ### SDDM-refresh-rate
-You can change the refresh rate and primary monitor in SDDM. Edit the file /usr/share/sddm/scripts/Xsetup as sudo and add in the lines:
-```
-xrandr --output DP-0 --primary --mode 2560x1440 --rate 180
-```
-You can get the numbers from running `xrandr | grep -w connected` while in an **X-session**. You need the package xorg-xrandr for this to work.
+You can do this with Xsetup, but I now use SDDM on Wayland. Follow this wiki here https://wiki.archlinux.org/title/SDDM#Wayland. 
 
 ### Anki
 After an update, the audio in Anki is low. You need to specify ao=pulse in mpv.conf, and put it in ~/.local/share/Anki2/ so Anki reads it. You may want to add ANKI_WAYLAND=1 as an environmental variable if it behaves weirdly on Wayland. 
